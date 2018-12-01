@@ -4,6 +4,28 @@ Version 0.2
 
 benchmarks table
 
+<table border="1">
+<thead>
+<tr>
+<td></td>
+<th scope="col">test</th>
+<th scope="col"><a href="https://rarlab.com/">WinRAR</a></th>
+<th scope="col"><a href="https://sourceforge.net/projects/freearc/">FreeArc</a></th>
+<th scope="col"><a href="https://www.7-zip.org/">7-Zip</a></th>
+<th scope="col">fractal_zip</th>
+<th scope="col">comments</th>
+</tr>
+</thead>
+<tbody>
+<th rowspan="9" scope="rowgroup">from <a href="https://www.maximumcompression.com/data/files/index.html">maximumcompression.com</a></th>
+<th scope="row">test_files35<br>rafale.bmp<br>4,149,414&nbsp;B</th>
+<td>1,143,200&nbsp;B</td>
+<td>784,950&nbsp;B</td>
+<td>990,773&nbsp;B</td>
+<td>990,925&nbsp;B</td>
+<td></td>
+<tr>
+
 test 	        WinRAR 	      FreeArc 	  7-Zip 	    fractal_zip 	comments
 
 test_files35
