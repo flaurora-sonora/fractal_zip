@@ -17,7 +17,7 @@ benchmarks table
 </tr>
 </thead>
 <tbody>
-<th rowspan="9" scope="rowgroup">from <a href="https://www.maximumcompression.com/data/files/index.html">maximumcompression.com</a></th>
+<th scope="rowgroup">from <a href="https://www.maximumcompression.com/data/files/index.html">maximumcompression.com</a></th>
 <th scope="row">test_files35<br>rafale.bmp<br>4,149,414&nbsp;B</th>
 <td>1,143,200&nbsp;B</td>
 <td>784,950&nbsp;B</td>
@@ -25,6 +25,40 @@ benchmarks table
 <td>990,925&nbsp;B</td>
 <td></td>
 <tr>
+<th rowspan=4" scope="rowgroup">other test files</a></th>
+<th scope="row">test_files49<br>phpinfo.html<br>106,762&nbsp;B</th>
+<td>20,691&nbsp;B</td>
+<td>20,123&nbsp;B</td>
+<td>19,779&nbsp;B</td>
+<td><span style="color: green;">19,407&nbsp;B</span><br><span style="color: red;">67.498s</span></td>
+<td>fractal_zip was able to find a little more room for compression than the others; cool!</td>
+</tr>
+<tr>
+<th scope="row">test_files29<br><a href="#">showing_off.txt</a><br>1,277,926&nbsp;B</th>
+<td>11,651&nbsp;B</td>
+<td>613&nbsp;B</td>
+<td>25,180&nbsp;B</td>
+<td><span style="color: green;">102&nbsp;B!<br><span style="color: red;">&infin;!</span></td>
+<td>This is a file with highly fractal data; in other words a highly unlikely file to produce naturally. Nevertheless it serves to illustrate that the fractal_zip approach is valid. This file has a fractal recursion level of 30, whereas the most highly compressed things we know of (example: <abbr title="Deoxyribonucleic acid">DNA</abbr> with fractal recursion level of 7) are much less fractal.</td>
+</tr>
+<tr>
+<th scope="row">test_files28<br><a href="#">sf.bmp</a><br>9,498&nbsp;B</th>
+<td>1,195&nbsp;B</td>
+<td>1,217&nbsp;B</td>
+<td>1,179&nbsp;B</td>
+<td>1,192&nbsp;B<br>3.484s</td>
+<td>No advantage to using fractal_zip. 7-zip wins for this single BMP.</td>
+</tr>
+<tr>
+<th scope="row">test_files2</th>
+<td>796&nbsp;B</td>
+<td>496&nbsp;B</td>
+<td>378&nbsp;B</td>
+<td><span style="color: green;">345&nbsp;B</span><br>0.471s</td>
+<td>These short strings (~100&nbsp;B) are somewhat fractal and benefit from fractal_zip.</td>
+</tr>
+</tbody>
+</table>
 
 test 	        WinRAR 	      FreeArc 	  7-Zip 	    fractal_zip 	comments
 
