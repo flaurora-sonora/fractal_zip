@@ -7,7 +7,6 @@ benchmarks table
 <table border="1">
 <thead>
 <tr>
-<td></td>
 <th scope="col">test</th>
 <th scope="col"><a href="https://rarlab.com/">WinRAR</a></th>
 <th scope="col"><a href="https://sourceforge.net/projects/freearc/">FreeArc</a></th>
@@ -17,15 +16,13 @@ benchmarks table
 </tr>
 </thead>
 <tbody>
-<th scope="rowgroup">from <a href="https://www.maximumcompression.com/data/files/index.html">maximumcompression.com</a></th>
 <th scope="row">test_files35<br>rafale.bmp<br>4,149,414&nbsp;B</th>
 <td>1,143,200&nbsp;B</td>
 <td>784,950&nbsp;B</td>
 <td>990,773&nbsp;B</td>
 <td>990,925&nbsp;B</td>
-<td></td>
+<td>from <a href="https://www.maximumcompression.com/data/files/index.html">maximumcompression.com</a></td>
 <tr>
-<th rowspan=4" scope="rowgroup">other test files</a></th>
 <th scope="row">test_files49<br>phpinfo.html<br>106,762&nbsp;B</th>
 <td>20,691&nbsp;B</td>
 <td>20,123&nbsp;B</td>
